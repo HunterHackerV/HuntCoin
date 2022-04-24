@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
+    <meta charset="utf-8">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="divLogin">
+      <form method="post">
+        <input type="text" name="Login" value="" class="inputLogin" placeholder="Логин">
+        <input type="password" name="Password" value="" class="inputLogin" placeholder="Пароль">
+        <button type="sumbit" name="button" class="inputLogin">Войти</button>
+      </form>
+      <a href="./register" style="margin-left:9.5vw;margin-top:2vw;">Регистрация</a>
+    </div>
+  </body>
+</html>

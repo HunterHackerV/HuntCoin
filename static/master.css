@@ -1,0 +1,17 @@
+.divLogin{
+  background-color: #606060cc;
+  border-radius: 1vw;
+  width: 23vw;
+  height: 20vw;
+  margin-left: 38vw;
+}
+.inputLogin{
+  border-radius: 10vw;
+  background-color: white;
+  color:black;
+  margin-left: 3vw;
+  width: 17vw;
+  height: 2vw;
+  margin-top: 3vw;
+  outline: 0;
+}
